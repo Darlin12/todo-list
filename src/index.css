@@ -5,14 +5,21 @@ body {
   width: 100%;
   height: 100%;
   margin: auto 0;
+}
+
+*{
   font-family: 'Poppins', sans-serif;
+}
+.note{
+  width: 100%;
+  display: flex;
+  justify-self: flex-end;
 }
 
 #root {
   background-color: gold;
   width: 100%;
   height: 100%;
-
 }
 
 .App {
@@ -50,7 +57,6 @@ h1 {
   margin-left: 8px;
   margin-top: 5px;
   border-radius: 30px;
-  font-family: 'Poppins', sans-serif;
 }
 
 #btn {
@@ -59,5 +65,8 @@ h1 {
   width: 20%;
   margin-left: 3px;
   border-radius: 30px;
-  font-family: 'Poppins', sans-serif;
+}
+
+.line-through{
+  text-decoration:line-through;
 }
