@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import Notepad from './Components/Notepad';
 
 function App() {
