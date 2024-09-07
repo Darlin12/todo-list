@@ -17,7 +17,7 @@ body {
 }
 
 #root {
-  background-color: gold;
+  background-color: #bce7f7;
   width: 100%;
   height: 100%;
 }
@@ -53,6 +53,7 @@ h1 {
 }
 
 #input-nota {
+  border: gray solid 1px;
   width: 70%;
   height: 100%;
   margin-left: 8px;
@@ -61,11 +62,13 @@ h1 {
 }
 
 #btn {
-  background-color: grey;
+  background-color: #007bff;
+  color: white;
   height: 100%;
   width: 20%;
   margin-left: 3px;
   border-radius: 30px;
+  border: none;
 }
 
 .deleteButton{
@@ -88,15 +91,15 @@ p{
   text-decoration:line-through;
 }
 
-footer p{
+.footer p{
   padding: 10px;
   font-family: 'Roboto Slab', serif;
   font-size: 20px; 
-  color: #333; 
+  color: rgb(12, 12, 12);
   text-align: center;
 }
 
-@media(max-width: 768px){
+@media(max-width: 968px){
   .App{
     height: 100%;
   }
@@ -108,7 +111,7 @@ footer p{
     margin-top: 0;
     padding-top: 0;
   }
-  footer p{
+  .footer p{
     font-size: 9pt;
 }
   
